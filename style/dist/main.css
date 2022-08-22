@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+}
+
+.container {
+  text-align: center;
+  margin-top: 100px;
+}
+.container .list {
+  margin-top: 25px;
+}
+.container .list #input-text {
+  border: 1px solid orange;
+  border-radius: 15px;
+  width: 200px;
+  height: 30px;
+  outline: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.container .list #add {
+  border-radius: 15px;
+  width: 100px;
+  height: 30px;
+  background-color: green;
+  color: white;
+}
+.container .list #clean {
+  border-radius: 15px;
+  width: 100px;
+  height: 30px;
+  background-color: red;
+  color: white;
+}
+.container .list #clean #clean:active {
+  background-color: black;
+}
+.container .mylist {
+  margin-top: 30px;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+  color: red;
+  text-transform: capitalize;
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */
